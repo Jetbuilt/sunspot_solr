@@ -3,11 +3,9 @@ lib = File.expand_path('../../sunspot/lib/', __FILE__)
 
 $:.unshift(lib) unless $:.include?(lib)
 
-require 'sunspot/version'
-
 Gem::Specification.new do |s|
   s.name        = "sunspot_solr"
-  s.version     = Sunspot::VERSION
+  s.version     = '2.2.0'
   s.platform    = Gem::Platform::RUBY
   s.authors     = ['Mat Brown', 'Peer Allan', 'Dmitriy Dzema', 'Benjamin Krause', 'Marcel de Graaf', 'Brandon Keepers', 'Peter Berkenbosch',
                   'Brian Atkinson', 'Tom Coleman', 'Matt Mitchell', 'Nathan Beyer', 'Kieran Topping', 'Nicolas Braem', 'Jeremy Ashkenas',
